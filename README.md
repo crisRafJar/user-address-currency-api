@@ -8,12 +8,12 @@ API REST en .NET (Minimal API) para gestionar usuarios, direcciones y conversió
 
 ## Cómo correr el proyecto
 
----powershell
+```powershell
 git clone https://github.com/crisRafJar/user-address-currency-api.git
 cd user-address-currency-api
 dotnet restore
 dotnet run
----
+```
 
 La API escucha en `http://localhost:5230` y Swagger está en `http://localhost:5230/swagger`.
 
@@ -30,9 +30,9 @@ La clave está en `appsettings.json` (`ApiKey`).
 
 - API Key de prueba: `test-api-key-123`
 
----powershell
+```powershell
 curl.exe -H "X-API-KEY: test-api-key-123" http://localhost:5230/users
----
+```
 
 Swagger se puede abrir sin clave. Para probar los endpoints desde ahí, usa el botón **Authorize**.
 
@@ -44,9 +44,9 @@ fallaron, con el motivo.
 
 Archivo de prueba: [`sample-data/bulk_users_test.json`](sample-data/bulk_users_test.json)
 
----powershell
+```powershell
 curl.exe -X POST http://localhost:5230/users/bulk -H "X-API-KEY: test-api-key-123" -H "Content-Type: application/json" --data-binary "@sample-data/bulk_users_test.json"
----
+```
 
 ## Qué quedó implementado
 
