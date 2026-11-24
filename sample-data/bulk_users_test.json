@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "name": "Ana Gómez", "email": "ana.gomez@test.com" },
+    { "name": "Luis Duarte", "email": "luis.duarte@test.com" },
+    { "name": "Marta Silva", "email": "marta.silva@test.com" },
+    { "name": "Carlos Ríos", "email": "carlos.rios@test.com" },
+    { "name": "Pedro Gómez", "email": "pedro.gomez@test.com" },
+    { "name": "Luis Perez", "email": "luis.perez@test.com" },
+    { "name": "Marta Hut", "email": "marta.hut@test.com" },
+    { "name": "Carlos Torres", "email": "carlos.torres@test.com" },
+    { "name": "Ana Romero", "email": "ana.romero@test.com" },
+    { "name": "Cristina Rodriguez", "email": "cristina.rodriguez@test.com" }
+  ]
+}
