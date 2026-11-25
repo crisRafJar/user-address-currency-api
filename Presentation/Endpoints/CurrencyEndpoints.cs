@@ -17,6 +17,12 @@ public static class CurrencyEndpoints
             .WithName("GetCurrencies")
             .Produces<IReadOnlyList<CurrencyResponse>>();
 
+        currencies.MapGet("/{id:int}", async (int id, IMediator mediator, CancellationToken ct) =>
+                Results.Ok(await mediator.Send(new GetCurrencyByIdQuery(id), ct)))
+            .WithName("GetCurrencyById")
+            .Produces<CurrencyResponse>()
+            .ProducesProblem(StatusCodes.Status404NotFound);
+
         currencies.MapPost("/", async (CreateCurrencyCommand body, IMediator mediator, CancellationToken ct) =>
             {
                 var currency = await mediator.Send(body, ct);

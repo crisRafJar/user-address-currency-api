@@ -64,4 +64,4 @@ Notas:
 - Campos de auditoria para las tres tablas.
     `createdAt`
     `updatedAt`
-- Modificar y eliminar una divisa.
+- Obtener por id, modificar y eliminar una divisa.

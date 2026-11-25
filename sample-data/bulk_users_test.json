@@ -1,12 +1,12 @@
 {
   "users": [
-    { "name": "Ana Gómez", "email": "ana.gomez@test.com" },
+    { "name": "Ana Gómez", "email": "ana.gomez@test.com", "password": "Xk9vQ2mL" },
     { "name": "Luis Duarte", "email": "luis.duarte@test.com" },
-    { "name": "Marta Silva", "email": "marta.silva@test.com" },
+    { "name": "Marta Silva", "email": "marta.silva@test.com", "password": "hT7rPz4w" },
     { "name": "Carlos Ríos", "email": "carlos.rios@test.com" },
-    { "name": "Pedro Gómez", "email": "pedro.gomez@test.com" },
+    { "name": "Pedro Gómez", "email": "pedro.gomez@test.com", "password": "Qw3nBv8e" },
     { "name": "Luis Perez", "email": "luis.perez@test.com" },
-    { "name": "Marta Hut", "email": "marta.hut@test.com" },
+    { "name": "Marta Hut", "email": "marta.hut@test.com", "password": "Lp5zXc1t" },
     { "name": "Carlos Torres", "email": "carlos.torres@test.com" },
     { "name": "Ana Romero", "email": "ana.romero@test.com" },
     { "name": "Cristina Rodriguez", "email": "cristina.rodriguez@test.com" }
